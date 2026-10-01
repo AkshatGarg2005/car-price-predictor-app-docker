@@ -12,8 +12,8 @@ An end-to-end Machine Learning web application that predicts the resale price of
 ---
 
 ## 🔗 Project Links
-* **Live Dockerized Web Application:** [Insert Your New Render Live URL Here]
-* **GitHub Repository:** [Insert Your New GitHub Repository URL Here]
+* **Live Web Application (non-Docker version):** https://car-price-prediction-app-00au.onrender.com
+* **GitHub Repository:** https://github.com/AkshatGarg2005/car-price-predictor-app-docker
 
 ---
 
@@ -112,9 +112,9 @@ Navigate to `http://localhost:10000` inside your web browser.
 
 ---
 
-## 🚀 Live Cloud Deployment via Docker
+## 🚀 Deploying on Render with Docker
 
-The architecture is containerized and deployed automatically using continuous integration connected directly to **Render**:
+The container can be deployed on **Render** as a Docker web service:
 
 * Render parses the root `Dockerfile` to build an isolated, lightweight `python:3.10-slim` Linux sandbox environment.
 * Dependencies are safely installed inside the container sandbox according to layer caching rules.
